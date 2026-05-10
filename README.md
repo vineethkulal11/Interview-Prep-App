@@ -1,4 +1,4 @@
-# Java Interview Prep App
+# Interview Prep App
 
 This is a production-ready React Native (Expo) tutorial application designed to help users prepare for Java interviews.
 
