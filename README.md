@@ -1,50 +1,22 @@
-# Welcome to your Expo app 👋
+# Java Interview Prep App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a production-ready React Native (Expo) tutorial application designed to help users prepare for Java interviews.
 
-## Get started
+## Features
+- **Structured Categories**: Categorizes questions by difficulty (Beginner, Intermediate, Advanced, Scenario-based).
+- **Modern UI**: Uses a clean, vibrant color palette, vector icons, and card layouts.
+- **Detailed Content**: Provides questions, detailed explanations, and code examples.
 
-1. Install dependencies
+## Project Structure
+- `src/theme/colors.js`: Global color tokens for the app.
+- `src/data/javaQuestions.js`: The mock data representing the database of interview questions.
+- `src/navigation/AppNavigator.js`: The stack navigator setting up the screens.
+- `src/screens/HomeScreen.js`: The category selection screen.
+- `src/screens/CategoryScreen.js`: Lists questions for the selected category.
+- `src/screens/QuestionDetailScreen.js`: Shows the full answer and code snippet for the selected question.
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## How to Run
+Make sure you have Node.js and the Expo CLI installed.
+1. Run `npm install`
+2. Run `npm start`
+3. Scan the QR code with your Expo Go app, or press `a` to run on Android emulator, `i` to run on iOS simulator.
